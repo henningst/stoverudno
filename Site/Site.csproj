@@ -136,7 +136,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="loaderio-0aa53a57c452cbfc07fdf450474833f0.txt" />
-    <None Include="Views\StreakProgress\Index.cshtml" />
+    <Content Include="Views\StreakProgress\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
