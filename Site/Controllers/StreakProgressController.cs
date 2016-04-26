@@ -13,16 +13,19 @@ namespace Site.Controllers
         {
             var goal = new DateTime(2016, 05, 04);
             var daysLeft = goal.Subtract(DateTime.Today).Days;
-            var percent = daysLeft/50;
+            var percent = (int)((50-daysLeft)/(double)50*100);
 
-            int.TryParse(p, out percent);
-            if (percent < 0)
+            if (!string.IsNullOrEmpty(p))
             {
-                percent = 0;
-            }
-            if (percent > 100)
-            {
-                percent = 100;
+                int.TryParse(p, out percent);
+                if (percent < 0)
+                {
+                    percent = 0;
+                }
+                if (percent > 100)
+                {
+                    percent = 100;
+                }
             }
             return View(percent);
         }
