@@ -11,7 +11,7 @@ namespace Site.Controllers
         // GET: StreakProgress
         public ActionResult Index(string p)
         {
-            var goal = new DateTime(2016, 05, 04);
+            var goal = new DateTime(2016, 05, 05);
             var daysLeft = goal.Subtract(DateTime.Today).Days;
             var percent = (int)((50-daysLeft)/(double)50*100);
 
