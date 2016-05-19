@@ -91,6 +91,7 @@
     <Content Include="Content\css\images\overlay.svg" />
     <Content Include="Content\css\main.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\images\PHPhotoalbum-website.PNG" />
     <Content Include="Content\js\ie\html5shiv.js" />
     <Content Include="Content\js\ie\PIE.htc" />
     <Content Include="Content\js\ie\respond.min.js" />
@@ -120,6 +121,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\PHPhotoalbumController.cs" />
     <Compile Include="Controllers\StreakProgressController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -137,6 +139,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="loaderio-0aa53a57c452cbfc07fdf450474833f0.txt" />
     <Content Include="Views\StreakProgress\Index.cshtml" />
+    <Content Include="Views\PHPhotoalbum\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
