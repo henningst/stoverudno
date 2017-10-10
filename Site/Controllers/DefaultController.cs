@@ -13,5 +13,10 @@ namespace Site.Controllers
         {
             return View();
         }
+        
+        public ActionResult CoinHive()
+        {
+            return View();
+        }
     }
 }
